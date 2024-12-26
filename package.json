@@ -1,0 +1,22 @@
+{
+  "name": "wine-list-web-project",
+  "version": "1.0.0",
+  "description": "A web project to display a list of wines using HTML, CSS, and JavaScript.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "wine",
+    "list",
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
