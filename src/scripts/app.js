@@ -79,7 +79,7 @@ function populateTable(data) {
 }
 
 // Fetch the wine data and populate the table
-fetch('data/wines.json')
+fetch('src/data/wines.json')
     .then(response => response.json())
     .then(data => populateTable(data))
     .catch(error => console.error('Error loading wine data:', error));
