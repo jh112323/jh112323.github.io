@@ -15,13 +15,87 @@ body {
   font-family: 'HoeflerText-Regular', sans-serif;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #f7f6f3; /* Match the background color of the page */
+  z-index: 1000; /* Ensure the header is above other content */
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px; /* Optional: Add some padding for better appearance */
+}
+
 /* Wrapper styles */
 .wrapper {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 260px; /* Adjust this value based on the height of your header */
   padding: 0 30px;
 }
 
+.col-xs-5{
+  position: relative;
+  text-align: right;
+  border-bottom: 1px solid #8F6B4D;
+  color: #8F6B4D;
+  font-family: "Conv_Yellow Design Studio - Lulo Clean One";
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.col-xs-5 h3{
+  position: relative;
+  right: 0;
+  padding-right: 45px;
+}
+
+.col-xs-12{
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  color: #8F6B4D;
+  font-family: "Conv_Yellow Design Studio - Lulo Clean One";
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  text-align: left !important;
+  font-size: 18px;
+  padding-top: 20px !important;
+  background: #f7f6f3;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fixed-col{
+  font-family: 'HoeflerText-Regular', Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  color: #8F6B4D;
+  font-size: 23px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-sizing: border-box;
+  text-align: right;
+  width: 12%;
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border: medium none;
+  border-bottom: 1px solid #8F6B4D;
+}
 /* Remove borders and gridlines from the table */
 #wineTable {
   border-collapse: collapse;
