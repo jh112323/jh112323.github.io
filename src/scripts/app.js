@@ -1,7 +1,7 @@
 const tableBody = document.querySelector("#wineTable tbody");
 
 // Define the custom order of group titles
-const groupTitleOrder = ["Sparkling", "White", "Rosé", "Red", "Sweet", "Fortified"];
+const groupTitleOrder = ["Sparkling", "White", "Orange", "Rosé", "Red", "Sweet", "Fortified"];
 
 // Function to sort data by custom group title order and then by subgroup title
 function sortByGroupAndSubgroupTitle(data) {
