@@ -272,6 +272,22 @@
         "Subgroup Title":"France - Bordeaux"
     },
     {
+        "Quantity":1,
+        "Location":"Cave de Camley",
+        "Size":"750ml",
+        "Price":60.0,
+        "Vintage":2022,
+        "Wine":"Domaine Larue Chassagne-Montrachet",
+        "Country":"France",
+        "Region":"Burgundy",
+        "Producer":"Domaine Larue",
+        "Type":"White",
+        "Color":"White",
+        "Category":"Dry",
+        "Group Title":"White",
+        "Subgroup Title":"France - Burgundy"
+    },
+    {
         "Quantity":2,
         "Location":"Cave de Camley",
         "Size":"750ml",
@@ -309,7 +325,7 @@
         "Size":"750ml",
         "Price":20.0,
         "Vintage":2021,
-        "Wine":"L\u00e9o de la Gaffeli\u00e8re",
+        "Wine":"L\u00e9o de la Gaffeli\u00e8re St. \u00c9milion",
         "Country":"France",
         "Region":"Bordeaux",
         "Producer":"L\u00e9o de la Gaffeli\u00e8re",
